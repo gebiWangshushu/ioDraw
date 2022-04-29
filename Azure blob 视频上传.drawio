@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-04-29T03:27:07.472Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.41 Safari/537.36" etag="wKlaJKpai8TP0Cl0WZop" version="17.5.0" type="github">
+<mxfile host="app.diagrams.net" modified="2022-04-29T03:36:54.015Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.41 Safari/537.36" etag="JzAdy6Flt_w_B8kA1rBG" version="17.5.0" type="github">
   <diagram id="f6F34YcNHmwSaY5xJGLs" name="第 1 页">
     <mxGraphModel dx="1038" dy="539" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="none" math="0" shadow="0">
       <root>
@@ -30,7 +30,7 @@
         </mxCell>
         <mxCell id="9rSzG49wwmpTXOKcnyaY-9" value="请求SAS" style="endArrow=block;endFill=1;html=1;edgeStyle=orthogonalEdgeStyle;align=left;verticalAlign=top;rounded=1;" parent="1" edge="1">
           <mxGeometry x="-1" relative="1" as="geometry">
-            <mxPoint x="169" y="230" as="sourcePoint" />
+            <mxPoint x="150" y="230" as="sourcePoint" />
             <mxPoint x="330" y="230" as="targetPoint" />
           </mxGeometry>
         </mxCell>
@@ -43,34 +43,28 @@
             <mxPoint x="144" y="180" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="9rSzG49wwmpTXOKcnyaY-27" value="携带Secret Key换取SAS" style="endArrow=block;endFill=1;html=1;edgeStyle=orthogonalEdgeStyle;align=left;verticalAlign=top;rounded=1;" parent="1" edge="1">
+        <mxCell id="9rSzG49wwmpTXOKcnyaY-27" value="携带Secret Key换取SAS" style="endArrow=block;endFill=1;html=1;edgeStyle=orthogonalEdgeStyle;align=left;verticalAlign=top;rounded=1;exitX=1.2;exitY=0.257;exitDx=0;exitDy=0;exitPerimeter=0;entryX=-0.28;entryY=0.261;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" edge="1" target="9rSzG49wwmpTXOKcnyaY-7" source="9rSzG49wwmpTXOKcnyaY-8">
           <mxGeometry x="-1" relative="1" as="geometry">
             <mxPoint x="365" y="260" as="sourcePoint" />
             <mxPoint x="620" y="260" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="342" y="262" />
+            </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="9rSzG49wwmpTXOKcnyaY-29" value="返回SAS" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;rounded=1;" parent="1" edge="1">
+        <mxCell id="9rSzG49wwmpTXOKcnyaY-29" value="返回SAS" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;rounded=1;exitX=-0.04;exitY=0.367;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" edge="1" target="9rSzG49wwmpTXOKcnyaY-5" source="9rSzG49wwmpTXOKcnyaY-7">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="620" y="310" as="sourcePoint" />
             <mxPoint x="169" y="310" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="9rSzG49wwmpTXOKcnyaY-31" value="SAS为凭证 上传所有切片到Azure Blob Storage" style="endArrow=block;endFill=1;html=1;edgeStyle=orthogonalEdgeStyle;align=left;verticalAlign=top;rounded=1;" parent="1" edge="1">
-          <mxGeometry x="-1" relative="1" as="geometry">
-            <mxPoint x="169" y="364" as="sourcePoint" />
-            <mxPoint x="779" y="364" as="targetPoint" />
-            <Array as="points">
-              <mxPoint x="169" y="364" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="9rSzG49wwmpTXOKcnyaY-36" value="返回视频链接，上传完成" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;rounded=1;" parent="1" edge="1">
+        <mxCell id="9rSzG49wwmpTXOKcnyaY-36" value="返回视频链接，上传完成" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;rounded=1;exitX=0;exitY=0.674;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.6;entryY=0.674;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" edge="1" target="9rSzG49wwmpTXOKcnyaY-5" source="9rSzG49wwmpTXOKcnyaY-6">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="776" y="440" as="sourcePoint" />
-            <mxPoint x="169" y="440" as="targetPoint" />
+            <mxPoint x="160" y="440" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="9rSzG49wwmpTXOKcnyaY-37" value="同步视频上传完成" style="html=1;verticalAlign=bottom;endArrow=block;rounded=1;" parent="1" edge="1">
+        <mxCell id="9rSzG49wwmpTXOKcnyaY-37" value="同步视频上传完成" style="html=1;verticalAlign=bottom;endArrow=block;rounded=1;" parent="1" edge="1" source="9rSzG49wwmpTXOKcnyaY-5">
           <mxGeometry width="80" relative="1" as="geometry">
             <mxPoint x="169" y="490" as="sourcePoint" />
             <mxPoint x="330" y="490" as="targetPoint" />
@@ -86,6 +80,25 @@
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="470" y="580" as="sourcePoint" />
             <mxPoint x="470" y="150" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MGUZ45InFyTvJ3E2pmmG-5" value="保存视频/用户信息到数据库" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="340" y="530" as="sourcePoint" />
+            <mxPoint x="470" y="530" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MGUZ45InFyTvJ3E2pmmG-6" value="&lt;span style=&quot;text-align: left&quot;&gt;SAS为凭证 上传所有切片到Azure Blob Storage&lt;/span&gt;" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;entryX=-0.36;entryY=0.51;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1">
+          <mxGeometry x="-0.6036" y="10" width="80" relative="1" as="geometry">
+            <mxPoint x="150" y="373" as="sourcePoint" />
+            <mxPoint x="856.4000000000001" y="372.29999999999995" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MGUZ45InFyTvJ3E2pmmG-7" value="视频上传完成" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;rounded=0;entryX=0.6;entryY=0.953;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="9rSzG49wwmpTXOKcnyaY-5">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="330" y="560" as="sourcePoint" />
+            <mxPoint x="150" y="560" as="targetPoint" />
           </mxGeometry>
         </mxCell>
       </root>
