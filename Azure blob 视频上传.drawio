@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-04-29T06:48:56.226Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.41 Safari/537.36" etag="SSpWnbfP3_Pvrwa4ZuwS" version="17.5.0" type="github">
+<mxfile host="app.diagrams.net" modified="2022-04-29T06:49:53.279Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.41 Safari/537.36" etag="wNLYlh0Keqs7-c37aGLd" version="17.5.0" type="github">
   <diagram id="f6F34YcNHmwSaY5xJGLs" name="第 1 页">
     <mxGraphModel dx="1038" dy="539" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="none" math="0" shadow="0">
       <root>
@@ -102,8 +102,8 @@
             <mxPoint x="150" y="560" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="SMnyKq4n7zZ62oeW0bqb-3" value="&lt;span style=&quot;font-weight: normal&quot;&gt;&lt;font style=&quot;font-size: 10px&quot;&gt;基本信息包括文件名/大小/类型/视频时长/分辨率等&lt;/font&gt;&lt;/span&gt;" style="text;strokeColor=none;fillColor=none;html=1;fontSize=24;fontStyle=1;verticalAlign=middle;align=center;" vertex="1" parent="1">
-          <mxGeometry x="430" y="460" width="100" height="40" as="geometry" />
+        <mxCell id="SMnyKq4n7zZ62oeW0bqb-3" value="&lt;span style=&quot;font-weight: normal&quot;&gt;&lt;font style=&quot;font-size: 12px&quot;&gt;(&lt;/font&gt;&lt;font style=&quot;font-size: 11px&quot;&gt;基本信息包括文件名/大小/类型/视频时长/分辨率等&lt;/font&gt;&lt;font style=&quot;font-size: 12px&quot;&gt;)&lt;/font&gt;&lt;/span&gt;" style="text;strokeColor=none;fillColor=none;html=1;fontSize=24;fontStyle=1;verticalAlign=middle;align=center;" vertex="1" parent="1">
+          <mxGeometry x="430" y="462" width="100" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
